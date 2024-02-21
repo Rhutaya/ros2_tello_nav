@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import find_packages, setup
 
-package_name = 'tello_nav'
+package_name = 'ros2_tello_nav'
 
 setup(
     name=package_name,
@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'tello_nav = tello_nav.tello_nav_handle:main',
-            'pub_only = tello_nav.simple_pub:main',
+            'tello_nav = ros2_tello_nav.tello_nav_handle:main',
+            'pub_only = ros2_tello_nav.simple_pub:main',
         ],
     },
 )
