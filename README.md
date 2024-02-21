@@ -16,14 +16,14 @@ The driver has been tested on Ubuntu 20.04 with ROS2 Foxy.
 * clone every rep upside
 * install driver for your remote controller (PS4 driver for my case)
 * build your workspace 
-'''
+```
 cd tello_ws
 colcon build --symlink-install
-'''
+```
 * And enjoy your flight :
-'''
+```
 ros2 launch tello_nav full_launch.py
-'''
+```
 
 ## Contact
 Arthur BOUTIGNON - arthurboutignon@gmail.com
